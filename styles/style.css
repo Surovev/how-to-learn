@@ -52,7 +52,7 @@
 
 
 
-.link {
+.header__link {
     color: #2F80ED;
     text-decoration: none;
 }
@@ -118,11 +118,13 @@
 
 
 .two-columns__brief {
-width: 175px;
-line-height: 1.2;
-font-size: 18px;
-font-weight: normal;
-color: #2F80ED;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 175px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    color: #2F80ED;
 }
 
 
@@ -141,7 +143,9 @@ color: #2F80ED;
 }
 
 .two-columns__paragraph {
+    margin-top: 0;
     margin-bottom: 30px;
+
     
 }
 
@@ -189,12 +193,14 @@ margin-right: auto;
     line-height: 1.15;
     font-size: 24px;
     font-weight: bolder;
+    margin: 0;
 }
 
 .table__text {
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    margin-bottom: 0;
     }
 
 .table__text:last-child {
@@ -277,14 +283,14 @@ text-align: center;
     
 }
 
-.title_theme_dark{
+.section-title_theme_dark{
     color: #ffffff;
     margin-top: 90px;
     width: 60%;
 
 }
 
-.subtitle_theme_dark {
+.section-subtitle_theme_dark {
     color: #ffffff; 
     margin-top: 20px;
     width: 60%;
@@ -364,8 +370,8 @@ text-align: center;
 
 .footer__author {
     
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     justify-self: flex-end;
    
 }
