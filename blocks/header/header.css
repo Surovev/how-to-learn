@@ -38,7 +38,7 @@
 }
 
 .logo_place_header {
-    background-image: url('../images/logo.svg');
+    background-image: url('__images/logo.svg');
     height: 32px;
     left: 64px;
     top: 30px;
@@ -46,10 +46,6 @@
     position: absolute;
 }
 
-.logo_place_footer {
-    background-image: url('../images/logo_white.svg');
-    height: 35px;
-}
 
 
 

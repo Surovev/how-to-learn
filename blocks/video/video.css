@@ -1,0 +1,24 @@
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+
+}
+
+.video__section-title {
+    margin-top: 100px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.video__section-subtitle {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

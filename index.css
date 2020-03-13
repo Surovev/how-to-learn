@@ -1,7 +1,12 @@
+@import url(normalize.css);
 @import url(blocks/header/header.css);
 @import url(blocks/description/description.css);
 @import url(blocks/techniks/techniks.css);
-
+@import url(blocks/video/video.css);
+@import url(blocks/oakley/oakley.css);
+@import url(blocks/digits/digits.css);
+@import url(blocks/feinman/feinman.css);
+@import url(blocks/kaufman/kaufman.css);
 
 
 
@@ -36,104 +41,6 @@
 
 }
 
-.feinman {
-    position: relative;
-    height: 790px;
-    background-color: #F2F2F2;
-    z-index: 1;
-    padding-top: 100px;
-}
-
-.feinman__title {
-    margin: auto;
-    width: 648px;
-    line-height: 1.15;
-    font-size: 120px;
-    font-weight: bold;
-    text-align: center;
-
-}
-
-.feinman__subtitle {
-    margin: auto;
-    margin-top: 70px;
-    line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-    text-align: center;
-
-}
-
-
-.feinman__pic {
-    width: 867px;
-    height: 637px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-
-}
-
-.feinman__link {
-    position: absolute;
-    top: 50%;
-    right: 48px;
-    text-align: right;
-    line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-    text-decoration: none;
-    color: #000000;
-
-}
-
-.kaufman {
-    background-color: #1F1F1F;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    padding-bottom: 90px;
-
-}
-
-.section-title_theme_dark {
-    color: #ffffff;
-    margin-top: 90px;
-    width: 60%;
-
-}
-
-.section-subtitle_theme_dark {
-    color: #ffffff;
-    margin-top: 20px;
-    width: 60%;
-}
-
-.table__heading_theme_dark {
-    color: #ffffff;
-}
-
-.table__cell_theme_dark {
-    width: 200px;
-    justify-content: space-between;
-}
-
-.table__text_theme_dark {
-
-    color: #ffffff;
-}
-
-.kaufman__triangle {
-    height: 877px;
-    width: 877px;
-    background-image: url(../images/triangle.svg);
-    background-size: contain;
-    position: absolute;
-    top: 0;
-    right: -210px;
-    z-index: -1;
-}
 
 .footer {
     min-height: 350px;
@@ -154,6 +61,14 @@
     line-height: 30px;
     font-size: 18px;
 }
+
+.logo_place_footer {
+    background-image: url('../images/logo_white.svg');
+    height: 35px;
+    width: 183px;
+    background-size: cover;
+}
+
 
 .footer__column_content_copyright {
     flex-basis: 711px;
