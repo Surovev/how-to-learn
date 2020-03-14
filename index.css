@@ -15,6 +15,7 @@
 @import url(blocks/khan/khan.css);
 @import url(blocks/footer/footer.css);
 @import url(blocks/two-columns/two-columns.css);
+@import url(blocks/link/link.css);
 
 
 .page {
