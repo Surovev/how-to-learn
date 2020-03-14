@@ -6,3 +6,9 @@
 @import url(__quote-author/khan__quote-author.css);
 @import url(__quote/khan__quote.css);
 @import url(__title/khan__title.css);
+
+.khan__container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
