@@ -62,12 +62,7 @@
     font-size: 18px;
 }
 
-.logo_place_footer {
-    background-image: url('../images/logo_white.svg');
-    height: 35px;
-    width: 183px;
-    background-size: cover;
-}
+
 
 
 .footer__column_content_copyright {

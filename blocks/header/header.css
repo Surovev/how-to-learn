@@ -1,3 +1,12 @@
+@import url(__link/header__link.css);
+@import url(__main-illustration/header__main-illustration.css);
+@import url(__square-pic/header__square-pic.css);
+@import url(__subtitle/header__subtitle.css);
+@import url(__title/header__title.css);
+
+
+
+
 @keyframes rotation {
     from {
         transform: rotate(-15deg);
@@ -38,7 +47,7 @@
 }
 
 .logo_place_header {
-    background-image: url('__images/logo.svg');
+    background-image: url('logo.svg');
     height: 32px;
     left: 64px;
     top: 30px;
