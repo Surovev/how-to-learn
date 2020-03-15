@@ -1,25 +1,11 @@
 @import url(__iframe/video__iframe.css);
 @import url(__iframes/video__iframes.css);
-
+@import url(__section-title/video__section-title.css);
+@import url(__section-subtitle/video__section-subtitle.css);
 
 .video {
     width: 1100px;
     margin-right: auto;
     margin-left: auto;
 
-}
-
-.video__section-title {
-    margin-top: 100px;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.video__section-subtitle {
-    width: 60%;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
 }
