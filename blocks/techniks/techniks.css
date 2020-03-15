@@ -1,31 +1,7 @@
-@import url(cards/cards.css);
-
+@import url(cards/__description/cards__description.css);
+@import url(cards/__title/cards__title.css);
 
 .technics {
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-
-
-
-
-
-
-.cards__title {
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: bolder;
-    margin: 0;
-}
-
-.cards__description {
-    line-height: 23px;
-    font-size: 18px;
-    font-weight: normal;
-    margin-bottom: 0;
-}
-
-.table__text:last-child {
-    margin-top: 20px;
 }
